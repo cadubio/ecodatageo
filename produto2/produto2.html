@@ -194,7 +194,8 @@ window.Quarto = {
 </div>
 </div>
 <p>Com base nestes arquivos as classes de distúrbios utilizadas foram:</p>
-<table class="caption-top table">
+<table class="table-striped table-hover caption-top table">
+<caption>Classes</caption>
 <colgroup>
 <col style="width: 31%">
 <col style="width: 18%">
@@ -216,22 +217,22 @@ window.Quarto = {
 <tr class="even">
 <td>deter_logging…</td>
 <td>logging</td>
-<td>Floresta - Corte seletivo geométrico</td>
+<td>Floresta - Corte seletivo</td>
 </tr>
 <tr class="odd">
 <td>prodes_deforestation…</td>
 <td>deforestation</td>
-<td>Floresta - Corte seletivo desordenado</td>
+<td>Floresta - Corte raso desordenado</td>
 </tr>
 </tbody>
 </table>
-<p>Os vetores estavam com o DATUM WGS 84 e foram convertidos para o DATUM WGS 84 / UTM 23N (ESPG 32623), para que fosse possível realizar o cálculo da área de cada classe de distúrbio.</p>
+<p>Os vetores estavam com o DATUM WGS 84 e foram convertidos para o DATUM SIRGAS 2000 (ESPG 4674), para que fosse possível realizar o cálculo da área de cada classe de distúrbio.</p>
 <div style="page-break-after: always;"></div>
 <p>Parte dos cálculos foram realizadas no ambiente de desenvolvimento <a href="https://www.r-project.org/"><em>R</em></a>.</p>
 <p>Para a conversão em lote dos vetores foram utilizados as seguintes funções do ambiente <code>R</code>:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Lê os arquivos com final "shp" do diretório de dados</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>arquivos <span class="ot">&lt;-</span> <span class="fu">list.files</span>(<span class="at">path =</span> <span class="st">"data"</span>, <span class="at">pattern =</span> <span class="st">".*shp$"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>arquivos <span class="ot">&lt;-</span> <span class="fu">list.files</span>(<span class="at">path =</span> <span class="st">"data/"</span>, <span class="at">pattern =</span> <span class="st">".*shp$"</span>)</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Transforma o vetor com o nomes de arquivos em um vetor nomeado</span></span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(arquivos) <span class="ot">&lt;-</span> arquivos </span>
@@ -240,7 +241,7 @@ window.Quarto = {
 <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co"># converte para WGS 84 / UTM 22N = EPSG:32622 </span></span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>shapes <span class="ot">&lt;-</span> </span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  arquivos <span class="sc">|&gt;</span> </span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  purrr<span class="sc">::</span><span class="fu">map</span>(\(x) sf<span class="sc">::</span><span class="fu">st_transform</span>(sf<span class="sc">::</span><span class="fu">st_read</span>(<span class="fu">paste0</span>(<span class="st">"data/"</span>, x)),<span class="at">crs =</span> <span class="dv">32622</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  purrr<span class="sc">::</span><span class="fu">map</span>(\(x) sf<span class="sc">::</span><span class="fu">st_transform</span>(sf<span class="sc">::</span><span class="fu">st_read</span>(<span class="fu">paste0</span>(<span class="st">"data/"</span>, x)), <span class="at">crs =</span> <span class="dv">4674</span>)) <span class="sc">|&gt;</span> </span>
 <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  purrr<span class="sc">::</span><span class="fu">list_rbind</span>(<span class="at">names_to =</span> <span class="st">"classe"</span>) </span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Após a conversão de DATUM, foi calculada a área em hectares e o número de polígonos de cada classe de distúrbio por ano, o resultado pode ser visto na tabela a seguir.</p>
@@ -266,13 +267,13 @@ n = (\frac{\Sigma W_{i}S_{i}}{S(\tilde{O})})^2
 </section>
 <section id="estatística-básica-por-classes" class="level2" data-number="3">
 <h2 data-number="3" class="anchored" data-anchor-id="estatística-básica-por-classes"><span class="header-section-number">3</span> Estatística Básica por classes</h2>
-<div id="tbl-classes-ano" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="tbl-classes-ano" class="striped hover quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-classes-ano-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabela&nbsp;1: Número e porcentagem de polígonos por classe/ano. <em>clas_valid</em> = classe definida pelo analista conforme <a href="#tbl-classes" class="quarto-xref">Tabela&nbsp;6</a>. pol = polígonos.
 </figcaption>
 <div aria-describedby="tbl-classes-ano-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
+<table class="table-striped table-hover caption-top table">
 <colgroup>
 <col style="width: 6%">
 <col style="width: 6%">
@@ -436,13 +437,13 @@ Tabela&nbsp;1: Número e porcentagem de polígonos por classe/ano. <em>clas_vali
 </div>
 <section id="corte-raso-cr" class="level3" data-number="3.1">
 <h3 data-number="3.1" class="anchored" data-anchor-id="corte-raso-cr"><span class="header-section-number">3.1</span> Corte Raso (CR)</h3>
-<div id="tbl-cr-classes-ano" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="tbl-cr-classes-ano" class="striped hover quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-cr-classes-ano-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabela&nbsp;2: Número e porcentagem de polígonos da classe CR por ano. <em>clas_valid</em> = classe definida pelo analista conforme <a href="#tbl-classes" class="quarto-xref">Tabela&nbsp;6</a>. pol = polígonos.
 </figcaption>
 <div aria-describedby="tbl-cr-classes-ano-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
+<table class="table-striped table-hover caption-top table">
 <colgroup>
 <col style="width: 18%">
 <col style="width: 11%">
@@ -564,13 +565,13 @@ Tabela&nbsp;2: Número e porcentagem de polígonos da classe CR por ano. <em>cla
 </section>
 <section id="cicatriz-de-queimada-cqf" class="level3" data-number="3.2">
 <h3 data-number="3.2" class="anchored" data-anchor-id="cicatriz-de-queimada-cqf"><span class="header-section-number">3.2</span> Cicatriz de Queimada (CQF)</h3>
-<div id="tbl-cqf-classes-ano" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="tbl-cqf-classes-ano" class="striped hover quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-cqf-classes-ano-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabela&nbsp;3: Número e porcentagem de polígonos da classe CQF por ano. <em>clas_valid</em> = classe definida pelo analista conforme <a href="#tbl-classes" class="quarto-xref">Tabela&nbsp;6</a>. pol = polígonos.
 </figcaption>
 <div aria-describedby="tbl-cqf-classes-ano-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
+<table class="table-striped table-hover caption-top table">
 <colgroup>
 <col style="width: 19%">
 <col style="width: 11%">
@@ -694,13 +695,13 @@ Tabela&nbsp;3: Número e porcentagem de polígonos da classe CQF por ano. <em>cl
 <h3 data-number="3.3" class="anchored" data-anchor-id="corte-seletivo-cs"><span class="header-section-number">3.3</span> Corte Seletivo (CS)</h3>
 <section id="cs-desordenado" class="level4" data-number="3.3.1">
 <h4 data-number="3.3.1" class="anchored" data-anchor-id="cs-desordenado"><span class="header-section-number">3.3.1</span> CS Desordenado</h4>
-<div id="tbl-csd-classes-ano" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="tbl-csd-classes-ano" class="striped hover quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-csd-classes-ano-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabela&nbsp;4: Número e porcentagem de polígonos da classe CSD por ano. <em>clas_valid</em> = classe definida pelo analista conforme <a href="#tbl-classes" class="quarto-xref">Tabela&nbsp;6</a>. pol = polígonos.
 </figcaption>
 <div aria-describedby="tbl-csd-classes-ano-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
+<table class="table-striped table-hover caption-top table">
 <colgroup>
 <col style="width: 18%">
 <col style="width: 11%">
@@ -822,13 +823,13 @@ Tabela&nbsp;4: Número e porcentagem de polígonos da classe CSD por ano. <em>cl
 </section>
 <section id="cs-gemétrico" class="level4" data-number="3.3.2">
 <h4 data-number="3.3.2" class="anchored" data-anchor-id="cs-gemétrico"><span class="header-section-number">3.3.2</span> CS Gemétrico</h4>
-<div id="tbl-csg-classes-ano" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="tbl-csg-classes-ano" class="striped hover quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-csg-classes-ano-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabela&nbsp;5: Número e porcentagem de polígonos da classe CSG por ano. <em>clas_valid</em> = classe definida pelo analista conforme <a href="#tbl-classes" class="quarto-xref">Tabela&nbsp;6</a>. pol = polígonos.
 </figcaption>
 <div aria-describedby="tbl-csg-classes-ano-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
+<table class="table-striped table-hover caption-top table">
 <colgroup>
 <col style="width: 19%">
 <col style="width: 11%">
@@ -957,13 +958,13 @@ Tabela&nbsp;5: Número e porcentagem de polígonos da classe CSG por ano. <em>cl
 </section>
 <section id="procedimentos" class="level2" data-number="4">
 <h2 data-number="4" class="anchored" data-anchor-id="procedimentos"><span class="header-section-number">4</span> Procedimentos</h2>
-<div id="tbl-classes" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="tbl-classes" class="striped hover quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-classes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabela&nbsp;6: <strong>VALOR NUMÉRICO DAS CLASSES DE VALIDAÇÃO</strong> (coluna <em>clas_valid</em> nas tabelas de atributos dos arquivos vetoriais. *AGUÁ, SOMBRA, NUVENS, VÁRZEA HERBÁCEA, MEANDROS).
 </figcaption>
 <div aria-describedby="tbl-classes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
+<table class="table-striped table-hover caption-top table">
 <thead>
 <tr class="header">
 <th style="text-align: right;">Classe</th>
@@ -1608,13 +1609,13 @@ Figura&nbsp;6: Fire TRUE
 </figcaption>
 </figure>
 </div>
-<div id="tbl-prob-result" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="tbl-prob-result" class="striped hover quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-prob-result-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Tabela&nbsp;7: Terminologia das Incerteza
 </figcaption>
 <div aria-describedby="tbl-prob-result-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
+<table class="table-striped table-hover caption-top table">
 <colgroup>
 <col style="width: 43%">
 <col style="width: 56%">
@@ -2403,7 +2404,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
