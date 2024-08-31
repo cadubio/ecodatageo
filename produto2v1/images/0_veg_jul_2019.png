@@ -1,0 +1,224 @@
+\relax 
+\providecommand*\new@tpo@label[2]{}
+\providecommand\babel@aux[2]{}
+\@nameuse{bbl@beforestart}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand*\HyPL@Entry[1]{}
+\HyPL@Entry{0<</S/D>>}
+\babel@aux{portuguese}{}
+\gdef \LT@i {\LT@entry 
+    {1}{24.59222pt}\LT@entry 
+    {1}{30.59222pt}\LT@entry 
+    {1}{30.59222pt}\LT@entry 
+    {1}{30.59222pt}\LT@entry 
+    {1}{30.59222pt}\LT@entry 
+    {1}{30.59222pt}\LT@entry 
+    {1}{30.59222pt}\LT@entry 
+    {1}{30.59222pt}\LT@entry 
+    {1}{30.59222pt}\LT@entry 
+    {1}{30.59222pt}\LT@entry 
+    {1}{30.59222pt}\LT@entry 
+    {1}{30.59222pt}\LT@entry 
+    {1}{30.59222pt}\LT@entry 
+    {1}{30.59222pt}\LT@entry 
+    {1}{24.59222pt}}
+\gdef \LT@ii {\LT@entry 
+    {1}{74.34409pt}\LT@entry 
+    {1}{54.04597pt}\LT@entry 
+    {1}{59.30449pt}\LT@entry 
+    {1}{54.04597pt}\LT@entry 
+    {1}{48.78192pt}\LT@entry 
+    {1}{48.78192pt}\LT@entry 
+    {1}{64.563pt}\LT@entry 
+    {1}{42.78192pt}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Estatística Básica por classes}{2}{section.1}\protected@file@percent }
+\newlabel{estatuxedstica-buxe1sica-por-classes}{{1}{2}{Estatística Básica por classes}{section.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Número e porcentagem de polígonos por classe/ano. \emph  {clas\_valid} = classe definida pelo analista conforme Tabela~\ref {tbl-classes}. pol = polígonos.}}{2}{table.1}\protected@file@percent }
+\newlabel{tbl-classes-ano}{{1}{2}{Número e porcentagem de polígonos por classe/ano. \emph {clas\_valid} = classe definida pelo analista conforme Tabela~\ref {tbl-classes}. pol = polígonos}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Corte Raso (CR)}{2}{subsection.1.1}\protected@file@percent }
+\newlabel{corte-raso-cr}{{1.1}{2}{Corte Raso (CR)}{subsection.1.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Número e porcentagem de polígonos da classe CR por ano. \emph  {clas\_valid} = classe definida pelo analista conforme Tabela~\ref {tbl-classes}. pol = polígonos.}}{2}{table.2}\protected@file@percent }
+\newlabel{tbl-cr-classes-ano}{{2}{2}{Número e porcentagem de polígonos da classe CR por ano. \emph {clas\_valid} = classe definida pelo analista conforme Tabela~\ref {tbl-classes}. pol = polígonos}{table.2}{}}
+\gdef \LT@iii {\LT@entry 
+    {1}{76.37553pt}\LT@entry 
+    {1}{55.31355pt}\LT@entry 
+    {1}{60.71599pt}\LT@entry 
+    {1}{49.91112pt}\LT@entry 
+    {1}{44.50314pt}\LT@entry 
+    {1}{49.91112pt}\LT@entry 
+    {1}{66.16269pt}\LT@entry 
+    {1}{43.91112pt}}
+\gdef \LT@iv {\LT@entry 
+    {1}{74.34409pt}\LT@entry 
+    {1}{54.04597pt}\LT@entry 
+    {1}{59.30449pt}\LT@entry 
+    {1}{54.04597pt}\LT@entry 
+    {1}{48.78192pt}\LT@entry 
+    {1}{48.78192pt}\LT@entry 
+    {1}{64.563pt}\LT@entry 
+    {1}{42.78192pt}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Cicatriz de Queimada (CQF)}{3}{subsection.1.2}\protected@file@percent }
+\newlabel{cicatriz-de-queimada-cqf}{{1.2}{3}{Cicatriz de Queimada (CQF)}{subsection.1.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Número e porcentagem de polígonos da classe CQF por ano. \emph  {clas\_valid} = classe definida pelo analista conforme Tabela~\ref {tbl-classes}. pol = polígonos.}}{3}{table.3}\protected@file@percent }
+\newlabel{tbl-cqf-classes-ano}{{3}{3}{Número e porcentagem de polígonos da classe CQF por ano. \emph {clas\_valid} = classe definida pelo analista conforme Tabela~\ref {tbl-classes}. pol = polígonos}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Corte Seletivo (CS)}{3}{subsection.1.3}\protected@file@percent }
+\newlabel{corte-seletivo-cs}{{1.3}{3}{Corte Seletivo (CS)}{subsection.1.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.1}CS Desordenado}{3}{subsubsection.1.3.1}\protected@file@percent }
+\newlabel{cs-desordenado}{{1.3.1}{3}{CS Desordenado}{subsubsection.1.3.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Número e porcentagem de polígonos da classe CSD por ano. \emph  {clas\_valid} = classe definida pelo analista conforme Tabela~\ref {tbl-classes}. pol = polígonos.}}{3}{table.4}\protected@file@percent }
+\newlabel{tbl-csd-classes-ano}{{4}{3}{Número e porcentagem de polígonos da classe CSD por ano. \emph {clas\_valid} = classe definida pelo analista conforme Tabela~\ref {tbl-classes}. pol = polígonos}{table.4}{}}
+\gdef \LT@v {\LT@entry 
+    {1}{75.35704pt}\LT@entry 
+    {1}{54.66039pt}\LT@entry 
+    {1}{60.0296pt}\LT@entry 
+    {1}{49.32991pt}\LT@entry 
+    {1}{49.32991pt}\LT@entry 
+    {1}{49.32991pt}\LT@entry 
+    {1}{65.36008pt}\LT@entry 
+    {1}{43.32991pt}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.2}CS Gemétrico}{4}{subsubsection.1.3.2}\protected@file@percent }
+\newlabel{cs-gemuxe9trico}{{1.3.2}{4}{CS Gemétrico}{subsubsection.1.3.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Número e porcentagem de polígonos da classe CSG por ano. \emph  {clas\_valid} = classe definida pelo analista conforme Tabela~\ref {tbl-classes}. pol = polígonos.}}{4}{table.5}\protected@file@percent }
+\newlabel{tbl-csg-classes-ano}{{5}{4}{Número e porcentagem de polígonos da classe CSG por ano. \emph {clas\_valid} = classe definida pelo analista conforme Tabela~\ref {tbl-classes}. pol = polígonos}{table.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Matriz de confusão}{4}{subsection.1.4}\protected@file@percent }
+\newlabel{matriz-de-confusuxe3o}{{1.4}{4}{Matriz de confusão}{subsection.1.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Procedimentos}{4}{section.2}\protected@file@percent }
+\newlabel{procedimentos}{{2}{4}{Procedimentos}{section.2}{}}
+\gdef \LT@vi {\LT@entry 
+    {4}{244.1734pt}\LT@entry 
+    {1}{31.59016pt}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces \textbf  {VALOR NUMÉRICO DAS CLASSES DE VALIDAÇÃO} (coluna \emph  {clas\_valid} nas tabelas de atributos dos arquivos vetoriais. *AGUÁ, SOMBRA, NUVENS, VÁRZEA HERBÁCEA, MEANDROS).}}{5}{table.6}\protected@file@percent }
+\newlabel{tbl-classes}{{6}{5}{\textbf {VALOR NUMÉRICO DAS CLASSES DE VALIDAÇÃO} (coluna \emph {clas\_valid} nas tabelas de atributos dos arquivos vetoriais. *AGUÁ, SOMBRA, NUVENS, VÁRZEA HERBÁCEA, MEANDROS)}{table.6}{}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig-veg-0-19}{{1a}{6}{VEG = 0. Julho 2019}{figure.caption.2}{}}
+\newlabel{sub@fig-veg-0-19}{{a}{6}{VEG = 0. Julho 2019}{figure.caption.2}{}}
+\newlabel{fig-veg-0-20}{{1b}{6}{VEG = 0. Julho 2020}{figure.caption.2}{}}
+\newlabel{sub@fig-veg-0-20}{{b}{6}{VEG = 0. Julho 2020}{figure.caption.2}{}}
+\newlabel{fig-csd-csg-1-19}{{1c}{6}{CSD = 1 para CSG. Setembro 2019}{figure.caption.2}{}}
+\newlabel{sub@fig-csd-csg-1-19}{{c}{6}{CSD = 1 para CSG. Setembro 2019}{figure.caption.2}{}}
+\newlabel{fig-csd-csg-2-20}{{1d}{6}{CSD = 2 para CSG. Setembro 2020}{figure.caption.2}{}}
+\newlabel{sub@fig-csd-csg-2-20}{{d}{6}{CSD = 2 para CSG. Setembro 2020}{figure.caption.2}{}}
+\newlabel{fig-csg-csd-2-18}{{1e}{6}{CSG = 2 para CSD. Outubro 2019}{figure.caption.2}{}}
+\newlabel{sub@fig-csg-csd-2-18}{{e}{6}{CSG = 2 para CSD. Outubro 2019}{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Corte Seletivo (CS) FALSE}}{6}{figure.caption.2}\protected@file@percent }
+\newlabel{fig-cs-false}{{1}{6}{Corte Seletivo (CS) FALSE}{figure.caption.2}{}}
+\newlabel{fig-csd-0-19}{{2a}{7}{CSD = 0. Agosto 2019}{figure.caption.3}{}}
+\newlabel{sub@fig-csd-0-19}{{a}{7}{CSD = 0. Agosto 2019}{figure.caption.3}{}}
+\newlabel{}{{2b}{7}{CSD = 0. Julho 2020}{figure.caption.3}{}}
+\newlabel{sub@}{{b}{7}{CSD = 0. Julho 2020}{figure.caption.3}{}}
+\newlabel{fig-csg-1-19}{{2c}{7}{CSG = 1. Agosto 2019}{figure.caption.3}{}}
+\newlabel{sub@fig-csg-1-19}{{c}{7}{CSG = 1. Agosto 2019}{figure.caption.3}{}}
+\newlabel{fig-csg-1-20}{{2d}{7}{CSG = 1. Julho 2020}{figure.caption.3}{}}
+\newlabel{sub@fig-csg-1-20}{{d}{7}{CSG = 1. Julho 2020}{figure.caption.3}{}}
+\newlabel{fig-csg-2-17}{{2e}{7}{CSG = 2. Julho 2017}{figure.caption.3}{}}
+\newlabel{sub@fig-csg-2-17}{{e}{7}{CSG = 2. Julho 2017}{figure.caption.3}{}}
+\newlabel{fig-csg-2-18}{{2f}{7}{CSG = 2. Março 2018}{figure.caption.3}{}}
+\newlabel{sub@fig-csg-2-18}{{f}{7}{CSG = 2. Março 2018}{figure.caption.3}{}}
+\newlabel{fig-csd-3-21}{{2g}{7}{CSD = 3. Abril 2021}{figure.caption.3}{}}
+\newlabel{sub@fig-csd-3-21}{{g}{7}{CSD = 3. Abril 2021}{figure.caption.3}{}}
+\newlabel{fig-csd-3-20}{{2h}{7}{CSD = 3. Julho 2020}{figure.caption.3}{}}
+\newlabel{sub@fig-csd-3-20}{{h}{7}{CSD = 3. Julho 2020}{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Corte Seletivo (CS) TRUE}}{7}{figure.caption.3}\protected@file@percent }
+\newlabel{fig-cs-true}{{2}{7}{Corte Seletivo (CS) TRUE}{figure.caption.3}{}}
+\newlabel{}{{3a}{8}{CR = 0. Julho 2022}{figure.caption.4}{}}
+\newlabel{sub@}{{a}{8}{CR = 0. Julho 2022}{figure.caption.4}{}}
+\newlabel{}{{3b}{8}{CR = 0. Julho 2023}{figure.caption.4}{}}
+\newlabel{sub@}{{b}{8}{CR = 0. Julho 2023}{figure.caption.4}{}}
+\newlabel{}{{3c}{8}{CSD = 1. Agosto 2021}{figure.caption.4}{}}
+\newlabel{sub@}{{c}{8}{CSD = 1. Agosto 2021}{figure.caption.4}{}}
+\newlabel{}{{3d}{8}{CSD = 1. Julho 2022}{figure.caption.4}{}}
+\newlabel{sub@}{{d}{8}{CSD = 1. Julho 2022}{figure.caption.4}{}}
+\newlabel{}{{3e}{8}{VEG = 2. Agosto 2021}{figure.caption.4}{}}
+\newlabel{sub@}{{e}{8}{VEG = 2. Agosto 2021}{figure.caption.4}{}}
+\newlabel{}{{3f}{8}{VEG = 2. Julho 2022}{figure.caption.4}{}}
+\newlabel{sub@}{{f}{8}{VEG = 2. Julho 2022}{figure.caption.4}{}}
+\newlabel{}{{3g}{8}{CR FALSE. Agosto 2017}{figure.caption.4}{}}
+\newlabel{sub@}{{g}{8}{CR FALSE. Agosto 2017}{figure.caption.4}{}}
+\newlabel{}{{3h}{8}{CR FALSE. Julho 2018}{figure.caption.4}{}}
+\newlabel{sub@}{{h}{8}{CR FALSE. Julho 2018}{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Desmatamento (CR) FALSE}}{8}{figure.caption.4}\protected@file@percent }
+\newlabel{fig-cr-false}{{3}{8}{Desmatamento (CR) FALSE}{figure.caption.4}{}}
+\newlabel{}{{4a}{9}{CR = 0. Julho 2019}{figure.caption.5}{}}
+\newlabel{sub@}{{a}{9}{CR = 0. Julho 2019}{figure.caption.5}{}}
+\newlabel{}{{4b}{9}{CR = 0. Julho 2020}{figure.caption.5}{}}
+\newlabel{sub@}{{b}{9}{CR = 0. Julho 2020}{figure.caption.5}{}}
+\newlabel{}{{4c}{9}{CR = 1. Julho 2021}{figure.caption.5}{}}
+\newlabel{sub@}{{c}{9}{CR = 1. Julho 2021}{figure.caption.5}{}}
+\newlabel{}{{4d}{9}{CR = 1. Julho 2022}{figure.caption.5}{}}
+\newlabel{sub@}{{d}{9}{CR = 1. Julho 2022}{figure.caption.5}{}}
+\newlabel{}{{4e}{9}{CR = 2. Julho 2022}{figure.caption.5}{}}
+\newlabel{sub@}{{e}{9}{CR = 2. Julho 2022}{figure.caption.5}{}}
+\newlabel{}{{4f}{9}{CR = 2. Julho 2023}{figure.caption.5}{}}
+\newlabel{sub@}{{f}{9}{CR = 2. Julho 2023}{figure.caption.5}{}}
+\newlabel{}{{4g}{9}{CR = 3. Julho 2018}{figure.caption.5}{}}
+\newlabel{sub@}{{g}{9}{CR = 3. Julho 2018}{figure.caption.5}{}}
+\newlabel{}{{4h}{9}{CR = 3. Julho 2019}{figure.caption.5}{}}
+\newlabel{sub@}{{h}{9}{CR = 3. Julho 2019}{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Desmatamento (CR) TRUE}}{9}{figure.caption.5}\protected@file@percent }
+\newlabel{fig-cr-true}{{4}{9}{Desmatamento (CR) TRUE}{figure.caption.5}{}}
+\newlabel{}{{5a}{10}{CQF = 0. Dezembro 2015}{figure.caption.6}{}}
+\newlabel{sub@}{{a}{10}{CQF = 0. Dezembro 2015}{figure.caption.6}{}}
+\newlabel{}{{5b}{10}{CQF = 0. Julho 2017}{figure.caption.6}{}}
+\newlabel{sub@}{{b}{10}{CQF = 0. Julho 2017}{figure.caption.6}{}}
+\newlabel{}{{5c}{10}{CQF = 0. SEtembro 2016}{figure.caption.6}{}}
+\newlabel{sub@}{{c}{10}{CQF = 0. SEtembro 2016}{figure.caption.6}{}}
+\newlabel{}{{5d}{10}{CQF = 1. Dezembro 2015}{figure.caption.6}{}}
+\newlabel{sub@}{{d}{10}{CQF = 1. Dezembro 2015}{figure.caption.6}{}}
+\newlabel{}{{5e}{10}{CQF = 1. Outubro 2016}{figure.caption.6}{}}
+\newlabel{sub@}{{e}{10}{CQF = 1. Outubro 2016}{figure.caption.6}{}}
+\newlabel{}{{5f}{10}{CQF = 1. Dezembro 2015}{figure.caption.6}{}}
+\newlabel{sub@}{{f}{10}{CQF = 1. Dezembro 2015}{figure.caption.6}{}}
+\newlabel{}{{5g}{10}{VEG = 2. Julho 2016}{figure.caption.6}{}}
+\newlabel{sub@}{{g}{10}{VEG = 2. Julho 2016}{figure.caption.6}{}}
+\newlabel{}{{5h}{10}{VEG = 2. Julho 2017}{figure.caption.6}{}}
+\newlabel{sub@}{{h}{10}{VEG = 2. Julho 2017}{figure.caption.6}{}}
+\newlabel{}{{5i}{10}{CR = 3. Julho 2022}{figure.caption.6}{}}
+\newlabel{sub@}{{i}{10}{CR = 3. Julho 2022}{figure.caption.6}{}}
+\newlabel{}{{5j}{10}{CR = 3. Setembro 2022}{figure.caption.6}{}}
+\newlabel{sub@}{{j}{10}{CR = 3. Setembro 2022}{figure.caption.6}{}}
+\newlabel{}{{5k}{10}{CR = 3. Julho 2023}{figure.caption.6}{}}
+\newlabel{sub@}{{k}{10}{CR = 3. Julho 2023}{figure.caption.6}{}}
+\newlabel{}{{5l}{10}{VARZEA = 4. Julho 2022}{figure.caption.6}{}}
+\newlabel{sub@}{{l}{10}{VARZEA = 4. Julho 2022}{figure.caption.6}{}}
+\newlabel{}{{5m}{10}{VARZEA = 4. Outubro 2022}{figure.caption.6}{}}
+\newlabel{sub@}{{m}{10}{VARZEA = 4. Outubro 2022}{figure.caption.6}{}}
+\newlabel{}{{5n}{10}{VARZEA = 4. Junho 2023}{figure.caption.6}{}}
+\newlabel{sub@}{{n}{10}{VARZEA = 4. Junho 2023}{figure.caption.6}{}}
+\newlabel{}{{5o}{10}{NUVEM = 5. Julho 2016}{figure.caption.6}{}}
+\newlabel{sub@}{{o}{10}{NUVEM = 5. Julho 2016}{figure.caption.6}{}}
+\newlabel{}{{5p}{10}{NUVEM = 5. Julho 2017}{figure.caption.6}{}}
+\newlabel{sub@}{{p}{10}{NUVEM = 5. Julho 2017}{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Fire FALSE}}{10}{figure.caption.6}\protected@file@percent }
+\newlabel{fig-cqf-false}{{5}{10}{Fire FALSE}{figure.caption.6}{}}
+\newlabel{}{{6a}{11}{CQF = 00. Julho 2022}{figure.caption.7}{}}
+\newlabel{sub@}{{a}{11}{CQF = 00. Julho 2022}{figure.caption.7}{}}
+\newlabel{}{{6b}{11}{CQF = 00. Setembro 2022}{figure.caption.7}{}}
+\newlabel{sub@}{{b}{11}{CQF = 00. Setembro 2022}{figure.caption.7}{}}
+\newlabel{}{{6c}{11}{CQF = 00. Julho 2023}{figure.caption.7}{}}
+\newlabel{sub@}{{c}{11}{CQF = 00. Julho 2023}{figure.caption.7}{}}
+\newlabel{}{{6d}{11}{CQF = 0. Julho 2022}{figure.caption.7}{}}
+\newlabel{sub@}{{d}{11}{CQF = 0. Julho 2022}{figure.caption.7}{}}
+\newlabel{}{{6e}{11}{CQF = 0. Setembro 2022}{figure.caption.7}{}}
+\newlabel{sub@}{{e}{11}{CQF = 0. Setembro 2022}{figure.caption.7}{}}
+\newlabel{}{{6f}{11}{CQF = 0. Junho 2023}{figure.caption.7}{}}
+\newlabel{sub@}{{f}{11}{CQF = 0. Junho 2023}{figure.caption.7}{}}
+\newlabel{}{{6g}{11}{CQF = 1. Julho 2022}{figure.caption.7}{}}
+\newlabel{sub@}{{g}{11}{CQF = 1. Julho 2022}{figure.caption.7}{}}
+\newlabel{}{{6h}{11}{CQF = 1. Setembro 2022}{figure.caption.7}{}}
+\newlabel{sub@}{{h}{11}{CQF = 1. Setembro 2022}{figure.caption.7}{}}
+\newlabel{}{{6i}{11}{CQF = 1. Julho 2023}{figure.caption.7}{}}
+\newlabel{sub@}{{i}{11}{CQF = 1. Julho 2023}{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Fire TRUE}}{11}{figure.caption.7}\protected@file@percent }
+\newlabel{fig-cqf-true}{{6}{11}{Fire TRUE}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Desmatamento Com Corte Raso (DCR)}{12}{section.3}\protected@file@percent }
+\newlabel{desmatamento-com-corte-raso-dcr}{{3}{12}{Desmatamento Com Corte Raso (DCR)}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Interpretação}{12}{subsection.3.1}\protected@file@percent }
+\newlabel{interpretauxe7uxe3o}{{3.1}{12}{Interpretação}{subsection.3.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}Métricas de Avaliação}{12}{subsubsection.3.1.1}\protected@file@percent }
+\newlabel{muxe9tricas-de-avaliauxe7uxe3o}{{3.1.1}{12}{Métricas de Avaliação}{subsubsection.3.1.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2}Métricas de Sensibilidade e Especificidade}{13}{subsubsection.3.1.2}\protected@file@percent }
+\newlabel{muxe9tricas-de-sensibilidade-e-especificidade}{{3.1.2}{13}{Métricas de Sensibilidade e Especificidade}{subsubsection.3.1.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Conclusão}{14}{subsection.3.2}\protected@file@percent }
+\newlabel{conclusuxe3o}{{3.2}{14}{Conclusão}{subsection.3.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Cicatriz de Queimada (CQF)}{15}{section.4}\protected@file@percent }
+\newlabel{cicatriz-de-queima
