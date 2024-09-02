@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -135,7 +135,7 @@ window.Quarto = {
   <li><a href="#métricas-de-sensibilidade-e-especificidade-4" id="toc-métricas-de-sensibilidade-e-especificidade-4" class="nav-link" data-scroll-target="#métricas-de-sensibilidade-e-especificidade-4"><span class="header-section-number">6.2</span> Métricas de Sensibilidade e Especificidade</a></li>
   <li><a href="#conclusão-4" id="toc-conclusão-4" class="nav-link" data-scroll-target="#conclusão-4"><span class="header-section-number">6.3</span> Conclusão</a></li>
   </ul></li>
-  <li><a href="#média-area" id="toc-média-area" class="nav-link" data-scroll-target="#média-area"><span class="header-section-number">7</span> Média area</a></li>
+  <li><a href="#cálculo-de-incertezas" id="toc-cálculo-de-incertezas" class="nav-link" data-scroll-target="#cálculo-de-incertezas"><span class="header-section-number">7</span> Cálculo de Incertezas</a></li>
   <li><a href="#observações" id="toc-observações" class="nav-link" data-scroll-target="#observações"><span class="header-section-number">8</span> Observações</a></li>
   <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências"><span class="header-section-number">9</span> Referências</a></li>
   </ul>
@@ -2129,223 +2129,158 @@ O PPV indica a proporção de previsões ‘0’ que são corretamente ‘0’. 
 <p><strong>Com este valor de acurácia (77,07%), considera-se que o modelo apresentou um resultado provável de ocorrer (<a href="#tbl-prob-result" class="quarto-xref">Tabela&nbsp;7</a>).</strong></p>
 </section>
 </section>
-<section id="média-area" class="level2" data-number="7">
-<h2 data-number="7" class="anchored" data-anchor-id="média-area"><span class="header-section-number">7</span> Média area</h2>
+<section id="cálculo-de-incertezas" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="cálculo-de-incertezas"><span class="header-section-number">7</span> Cálculo de Incertezas</h2>
 <p>Com base nos dados visualizados pelo analista foram calculados os percentuais das área por classe/ano são:</p>
 <div class="cell">
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <caption>Porcentagem por classe/ano. CR = Desmatamento, CQF = Cicatriz de Queimada, CSD = Corte Seletivo Desordenado, CSG = Corte Seletivo Geométrico.</caption>
-<colgroup>
-<col style="width: 10%">
-<col style="width: 22%">
-<col style="width: 21%">
-<col style="width: 22%">
-<col style="width: 21%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Classe</th>
-<th style="text-align: right;">Área (ha) label = 1</th>
-<th style="text-align: right;">Área (%) label = 1</th>
 <th style="text-align: right;">Área (ha) label = 0</th>
-<th style="text-align: right;">Área (%) label = 0</th>
+<th style="text-align: right;">Incertezas (%) label = 0</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">CQF_2017</td>
-<td style="text-align: right;">135848.03</td>
-<td style="text-align: right;">0.50</td>
 <td style="text-align: right;">133932.16</td>
 <td style="text-align: right;">0.50</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">CQF_2018</td>
-<td style="text-align: right;">344752.47</td>
-<td style="text-align: right;">0.97</td>
 <td style="text-align: right;">11538.44</td>
 <td style="text-align: right;">0.03</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">CQF_2019</td>
-<td style="text-align: right;">2893.28</td>
-<td style="text-align: right;">0.84</td>
 <td style="text-align: right;">557.47</td>
 <td style="text-align: right;">0.16</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">CQF_2020</td>
-<td style="text-align: right;">94737.70</td>
-<td style="text-align: right;">0.98</td>
 <td style="text-align: right;">2290.90</td>
 <td style="text-align: right;">0.02</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">CQF_2021</td>
-<td style="text-align: right;">72329.48</td>
-<td style="text-align: right;">0.97</td>
 <td style="text-align: right;">2431.31</td>
 <td style="text-align: right;">0.03</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">CQF_2022</td>
-<td style="text-align: right;">11678.15</td>
-<td style="text-align: right;">0.95</td>
 <td style="text-align: right;">586.60</td>
 <td style="text-align: right;">0.05</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">CQF_2023</td>
-<td style="text-align: right;">22345.01</td>
-<td style="text-align: right;">0.98</td>
 <td style="text-align: right;">445.41</td>
 <td style="text-align: right;">0.02</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">CR_2017</td>
-<td style="text-align: right;">2514.87</td>
-<td style="text-align: right;">0.83</td>
 <td style="text-align: right;">529.76</td>
 <td style="text-align: right;">0.17</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">CR_2018</td>
-<td style="text-align: right;">3333.07</td>
-<td style="text-align: right;">0.74</td>
 <td style="text-align: right;">1172.53</td>
 <td style="text-align: right;">0.26</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">CR_2019</td>
-<td style="text-align: right;">626.70</td>
-<td style="text-align: right;">0.84</td>
 <td style="text-align: right;">123.31</td>
 <td style="text-align: right;">0.16</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">CR_2020</td>
-<td style="text-align: right;">2830.13</td>
-<td style="text-align: right;">0.79</td>
 <td style="text-align: right;">737.04</td>
 <td style="text-align: right;">0.21</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">CR_2021</td>
-<td style="text-align: right;">5112.61</td>
-<td style="text-align: right;">0.89</td>
 <td style="text-align: right;">625.27</td>
 <td style="text-align: right;">0.11</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">CR_2022</td>
-<td style="text-align: right;">2850.75</td>
-<td style="text-align: right;">0.92</td>
 <td style="text-align: right;">249.44</td>
 <td style="text-align: right;">0.08</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">CR_2023</td>
-<td style="text-align: right;">2829.09</td>
-<td style="text-align: right;">0.65</td>
 <td style="text-align: right;">1497.24</td>
 <td style="text-align: right;">0.35</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">CSD_2017</td>
-<td style="text-align: right;">3065.91</td>
-<td style="text-align: right;">0.64</td>
 <td style="text-align: right;">1716.77</td>
 <td style="text-align: right;">0.36</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">CSD_2018</td>
-<td style="text-align: right;">3212.16</td>
-<td style="text-align: right;">1.00</td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">CSD_2019</td>
-<td style="text-align: right;">2488.04</td>
-<td style="text-align: right;">0.99</td>
 <td style="text-align: right;">24.24</td>
 <td style="text-align: right;">0.01</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">CSD_2020</td>
-<td style="text-align: right;">18122.60</td>
-<td style="text-align: right;">0.89</td>
 <td style="text-align: right;">2279.42</td>
 <td style="text-align: right;">0.11</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">CSD_2021</td>
-<td style="text-align: right;">2741.89</td>
-<td style="text-align: right;">0.65</td>
 <td style="text-align: right;">1493.61</td>
 <td style="text-align: right;">0.35</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">CSD_2022</td>
-<td style="text-align: right;">19704.12</td>
-<td style="text-align: right;">0.91</td>
 <td style="text-align: right;">1837.12</td>
 <td style="text-align: right;">0.09</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">CSD_2023</td>
-<td style="text-align: right;">9405.59</td>
-<td style="text-align: right;">0.63</td>
 <td style="text-align: right;">5559.20</td>
 <td style="text-align: right;">0.37</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">CSG_2017</td>
-<td style="text-align: right;">4220.29</td>
-<td style="text-align: right;">1.00</td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">CSG_2018</td>
-<td style="text-align: right;">4145.95</td>
-<td style="text-align: right;">1.00</td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">CSG_2019</td>
-<td style="text-align: right;">2209.17</td>
-<td style="text-align: right;">0.70</td>
 <td style="text-align: right;">968.62</td>
 <td style="text-align: right;">0.30</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">CSG_2020</td>
-<td style="text-align: right;">2971.93</td>
-<td style="text-align: right;">0.87</td>
 <td style="text-align: right;">436.57</td>
 <td style="text-align: right;">0.13</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">CSG_2021</td>
-<td style="text-align: right;">18479.10</td>
-<td style="text-align: right;">1.00</td>
 <td style="text-align: right;">14.63</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">CSG_2022</td>
-<td style="text-align: right;">7830.03</td>
-<td style="text-align: right;">0.96</td>
 <td style="text-align: right;">339.07</td>
 <td style="text-align: right;">0.04</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">CSG_2023</td>
-<td style="text-align: right;">11338.83</td>
-<td style="text-align: right;">0.96</td>
 <td style="text-align: right;">461.88</td>
 <td style="text-align: right;">0.04</td>
 </tr>
@@ -2354,47 +2289,6 @@ O PPV indica a proporção de previsões ‘0’ que são corretamente ‘0’. 
 </div>
 </div>
 <p>O total por ano</p>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
-<caption>Porcentagem por classe.</caption>
-<colgroup>
-<col style="width: 46%">
-<col style="width: 26%">
-<col style="width: 26%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Classe</th>
-<th style="text-align: right;">Área (%) label = 1</th>
-<th style="text-align: right;">Área (%) label = 0</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Cicatriz de Queimada (CQF)</td>
-<td style="text-align: right;">0.88</td>
-<td style="text-align: right;">0.12</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Desmatamento (CR)</td>
-<td style="text-align: right;">0.81</td>
-<td style="text-align: right;">0.19</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Corte Seletivo Desordenado (CSD)</td>
-<td style="text-align: right;">0.82</td>
-<td style="text-align: right;">0.18</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Corte Seletivo Geométrico (CSG)</td>
-<td style="text-align: right;">0.93</td>
-<td style="text-align: right;">0.07</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
 </section>
 <section id="observações" class="level2" data-number="8">
 <h2 data-number="8" class="anchored" data-anchor-id="observações"><span class="header-section-number">8</span> Observações</h2>
@@ -2834,7 +2728,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":false});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
